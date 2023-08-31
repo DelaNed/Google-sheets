@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-sheets"
+version = "0.0.1"
+authors = [
+  { name="DelaNed", email="delaram.nedaei@gmail.com" },
+]
+description = "Write into or read from a Google sheet."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/DelaNed/Google-sheets"
+"Bug Tracker" = "https://github.com/DelaNed/Google-sheets/issues"
